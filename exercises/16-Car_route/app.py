@@ -4,8 +4,8 @@
 import math
 
 def car_route(n,m):
-    return 1+m//n
+    return  math.ceil(m%n/m) + m//n
 
 
 #Invoke the function with two intergers.
-print(car_route(200,1000))
+print(car_route(700,750))
