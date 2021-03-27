@@ -1,4 +1,5 @@
-x = 8
+
+x = 8   # int(input())
 myDict = {}
 
 for i in range (1, x+1):
